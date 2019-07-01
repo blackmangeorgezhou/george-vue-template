@@ -8,6 +8,7 @@ import store from '@/store'
 
 import Vant from 'vant'
 import VueResource from 'vue-resource'
+import 'lib-flexible'
 
 Vue.use(Vant)
 Vue.use(VueResource)
