@@ -3,14 +3,13 @@
 </template>
 
 <script>
-import { Constants } from '@/common'
 
 export default {
   name: 'CopyrightMessageComponent',
   props: {
     copyright: {
       type: String,
-      default: Constants.defaultCopyRight
+      default: 'Copyright © This is a CopyRight Message'
     }
   }
 }
